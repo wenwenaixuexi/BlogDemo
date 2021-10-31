@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>管理系统演示</title>
+    <style>
+        .container {
+            position: absolute;
+            top: 200px;
+            left: 2700px;
+            width: 800px;
+            height: 1600px;
+
+
+        }
+        .box, .box img {
+            position: absolute;
+            top: 60px;
+            left: 0;
+            width: 800px;
+            height: 1500px;
+        }
+        .circle {
+            width: 200px;
+            height: 14px;
+            position: absolute;
+            bottom: 15px;
+            left: 50%;
+            margin-left: -100px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .circle b {
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            background-color: #000;
+            border-radius: 50%;
+            margin: 3px;
+        }
+        .circle .current {
+            background-color: #fff;
+        }
+        .btn {
+            position: absolute;
+            top: 50%;
+            width: 40px;
+            height: 50px;
+            margin-top: -25px;
+            background-color: rgba(255, 255, 255, .7);
+            text-align: center;
+            line-height: 40px;
+            font-size: 50px;
+            cursor: pointer;
+        }
+        .left {
+            width: 150px;
+            height: 150px;
+            left: 0;
+
+        }
+        .right {
+            width: 150px;
+            height: 150px;
+            right: 0;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+<div style="width:1800px;height: 1500px;color: cornflowerblue; margin-left: 1000px;margin-top: 200px;">
+    <h1 style="font-size: 160px;text-align: center;  margin-left: 1200px;">视频</h1>
+
+
+    <!-- 使用video嵌入本地视频 -->
+    <div style="width: 500px;height: 380px;margin: 25px auto;">
+        <video src="guanli.mp4" type="guanli/mp4" controls autoplay width="1800px" height="1380px" >
+            抱歉，你的浏览器不支持video标签。。
+        </video>
+    </div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <link rel="stylesheet" href="css/login.css">
+    <style>
+
+        .box{
+            width: 400px;
+            height: 400px;
+            padding-top: 100px;
+            /*background-image: url("https://scpic.chinaz.net/files/pic/pic9/202109/apic35200.jpg");*/
+            /*background-repeat: no-repeat;*/
+            margin: 0 auto;
+        }
+        h1{
+            text-align: center;
+            margin-bottom: 100px;
+        }
+
+
+        body{
+            /*background-color: pink;*/
+            background: url("https://scpic.chinaz.net/files/pic/pic9/202109/apic35200.jpg");
+
+        }
+        .box button{
+            margin:0 auto;
+        }
+    .login-dialog h2{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    </style>
+</head>
+<body>
+<div class="box">
+
+    <div class="login-dialog">
+        <h2>欢迎注册博客系统</h2>
+            <form action="register" method="post">
+        <div class="row">
+            <span>账号</span>
+            <input type="text" name="name" placeholder="请输入用户名">
+            <br/>
+        </div>
+
+       <div class="row">
+           <span>密码</span>
+           <input type="password" name="password" placeholder="请输入密码">
+           <br/>
+       </div>
+
+        <div class = "row" style="margin-top:150px;">
+            <button type="submit">注册</button>
+        </div>
+
+
+    </form>
+    </div>
+</div>
+
+</body>
+</html>
